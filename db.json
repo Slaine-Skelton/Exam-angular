@@ -1,0 +1,112 @@
+{
+    "data": [
+        {
+            "title": "Shovel",
+            "info": {
+                "current_page": 1,
+                "pages": 58,
+                "results": 58
+            },
+            "msg": "success",
+            "payload": 
+                {
+                    "created": "2019-02-02 20:50:48",
+                    "description": "Man With Shovel Line Art",
+                    "detail_link": "https://openclipart.org/detail/314678/Man%20With%20Shovel%20Line%20Art",
+                    "dimensions": {
+                        "png_full_lossy": {
+                            "height": 784,
+                            "width": 433
+                        },
+                        "png_thumb": {
+                            "height": 246,
+                            "width": 136
+                        }
+                    },
+                    "downloaded_by": 110,
+                    "id": 314678,
+                    "svg": {
+                        "png_2400px": "https://openclipart.org//image/2400px/svg_to_png/314678/1549140648.png",
+                        "png_full_lossy": "https://openclipart.org//image/800px/svg_to_png/314678/1549140648.png",
+                        "png_thumb": "https://openclipart.org//image/250px/svg_to_png/314678/1549140648.png",
+                        "url": "https://firebasestorage.googleapis.com/v0/b/wp2-exam-2019.appspot.com/o/Images%2FShovel.gif?alt=media&token=6e849af3-9007-467e-b481-e51caf2269e3"
+                    },
+                    "svg_filesize": 0,
+                    "tags": "Dig, Digging, Human, Line Art, Male, Man, People, Person, Semi-Realistic People, Shovel, Source+Wikimedia, Vintage",
+                    "tags_array": [
+                        "Dig",
+                        "Digging",
+                        "Human",
+                        "Line Art",
+                        "Male",
+                        "Man",
+                        "People",
+                        "Person",
+                        "Semi-Realistic People",
+                        "Shovel",
+                        "Source+Wikimedia",
+                        "Vintage"
+                    ],
+                    "title": "Man With Shovel Line Art",
+                    "total_favorites": 1,
+                    "uploader": "GDJ"
+                }
+            
+        },
+        {
+            "title": "Indigenous People",
+            "info": {
+                "current_page": 1,
+                "pages": 998,
+                "results": 998
+            },
+            "msg": "success",
+            "payload": 
+                {
+                    "created": "2019-02-27 04:14:36",
+                    "description": "This is the meeting of two worlds, with culture gaps vast but interest high on both sides.",
+                    "detail_link": "https://openclipart.org/detail/315882/Indigenous%20People",
+                    "dimensions": {
+                        "png_full_lossy": {
+                            "height": 800,
+                            "width": 553
+                        },
+                        "png_thumb": {
+                            "height": 250,
+                            "width": 173
+                        }
+                    },
+                    "downloaded_by": 64,
+                    "id": 315882,
+                    "svg": {
+                        "png_2400px": "https://openclipart.org//image/2400px/svg_to_png/315882/1551240875.png",
+                        "png_full_lossy": "https://openclipart.org//image/800px/svg_to_png/315882/1551240875.png",
+                        "png_thumb": "https://openclipart.org//image/250px/svg_to_png/315882/1551240875.png",
+                        "url": "https://firebasestorage.googleapis.com/v0/b/wp2-exam-2019.appspot.com/o/Images%2FIndigenous%20People.jpg?alt=media&token=ebac3d22-1582-4ff1-b33a-d20e5cdac0ad"
+                    },
+                    "svg_filesize": 0,
+                    "tags": "indigenous, people, aboriginal, native, people, first+nation, hut, house, boat, European, blue, meeting, Maori, 1875",
+                    "tags_array": [
+                        "1875",
+                        "aboriginal",
+                        "blue",
+                        "boat",
+                        "European",
+                        "first+nation",
+                        "house",
+                        "hut",
+                        "indigenous",
+                        "Maori",
+                        "meeting",
+                        "native",
+                        "people",
+                        "people"
+                    ],
+                    "title": "Indigenous People",
+                    "total_favorites": 0,
+                    "uploader": "j4p4n"
+                }
+            
+        }
+    ]
+}
