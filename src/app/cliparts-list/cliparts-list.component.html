@@ -1,7 +1,30 @@
 <div>
-  <img [src]="/assets/images/open-clipart-logo.svg" [style.height.px]='imageHeight' >
-  <h1>My Clipart Library</h1>
-  <form>
+  <img src="/assets/images/open-clipart-logo.svg" height="100px">
+  <h1 style="display: inline-block">My Clipart Library</h1>
+  <form class="ui form">
     <input type="text" name="searchTerm" placeholder="Enter Clip Art Term" #searchTerm>
+    <p></p>
+    <button class="ui primary button" (click)="getCliparts(searchTerm.value)">Get the cliparts</button>
   </form>
+  <div class="ui form segment"
+    *ngIf='clipartData'>
+    <div class="ui two column grid">
+        <div class="ui column">
+          <h2>{{clipartData[0].title}}</h2>
+          <img [src]='clipartData[0].payload.svg.url' [style.height.px]='imageHeight'>
+        </div>
+        <div class="ui column">
+          <button class="ui primary button" (click)="addToPossibilities()">Add to Possibilities</button>
+          <button class="ui button" (click)="cancel()">Cancel</button>
+        </div>
+    </div>
+  </div>
+  <div *ngIf="show" class="ui segment">
+    <h2>Possibilities</h2>
+    <app-clipart
+      *ngFor="let clip of clipartPossibilities"
+      [clipartsData]="clip"
+      (removeClipart)="removeFromPossibilities($event)">
+    </app-clipart>
+  </div>
 </div>

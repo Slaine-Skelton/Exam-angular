@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyA_eLSr39-yLJpD-qwGkHY8hzN6qv7OFYU",
+    authDomain: "wp2-exam-2019.firebaseapp.com",
+    databaseURL: "https://wp2-exam-2019.firebaseio.com",
+    projectId: "wp2-exam-2019",
+    storageBucket: "wp2-exam-2019.appspot.com",
+    messagingSenderId: "910165218471"
+    }
 };
 
 /*

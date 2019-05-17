@@ -1,3 +1,19 @@
-<p>
-  clipart works!
-</p>
+<div class="ui three column grid segment">
+  <div class="ui column">
+    <h2>{{clipartsData[0].title}}</h2>
+    <img [src]='clipartsData[0].payload.svg.url' [style.height.px]='imageHeight'>
+  </div>
+  <div class="ui column">
+    <p>Description: {{clipartsData[0].payload.description}}</p>
+    <p>Tags: {{clipartsData[0].payload.tags}}</p>
+    <p>Creation Date: {{clipartsData[0].payload.created}}</p>
+  </div>
+  <div class="ui column">
+    <button class="ui primary button" (click)="removeFromPossibilities()">Remove from Possibilities</button>
+  </div>
+  <form>
+    <label>You Can Save Your Choice to the Cloud</label>
+    <input type="text" name="clip" placeholder="Name" #clip>
+    <button (click)="saveToCloud(clip.value)">Save to the cloud</button>
+  </form>
+</div>

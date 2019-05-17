@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { ClipartsListComponent } from './cliparts-list/cliparts-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ClipartComponent } from './clipart/clipart.component';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ClipartComponent } from './clipart/clipart.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule,
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

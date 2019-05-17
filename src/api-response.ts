@@ -1,6 +1,7 @@
 interface IOpenClipArt{
     title:string;
     payload: IPayLoad;
+    myName: string;
 }
 
 interface IPayLoad{

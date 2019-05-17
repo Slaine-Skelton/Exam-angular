@@ -12,6 +12,7 @@ export class ClipartsListComponent implements OnInit {
   clipartPossibilities: IOpenClipArt[];
   clipartData: IOpenClipArt;
   imageHeight: number = 170;
+  show: boolean;
 
   constructor(private clipartApiService: ClipartApiService) { 
     this.clipartPossibilities = new Array();
@@ -25,6 +26,7 @@ export class ClipartsListComponent implements OnInit {
 
   addToPossibilities(){
     this.clipartPossibilities.push(this.clipartData);
+    this.show = true;
   }
 
   cancel(){
